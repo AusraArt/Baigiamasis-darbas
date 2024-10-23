@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="idejos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Daiktu_reinkarnacija_LOGO.png" alt="Daiktu_reinkarnacija_LOGO">
+        </div>
+        <nav>
+            <ul class="flex-container">
+                <li class="flex-item"><a href="pagrindinis.html">Pagrindinis</a></li>
+                <li class="flex-item"><a href="idejos.html">Idėjos</a></li>
+                <li class="flex-item"><a href="faktai.html">Faktai</a></li>
+            </ul>
+        </nav>
+        <button id="myButton">Spustelk</button>
+        <p id="message"></p>
+    </header>
+    <section>
+        <h1>Idėjų galerija</h1>
+    </section>
+    <main>
+        <section class="nuotrauku-galerija">
+            <div class="paveikslelis">
+                <img src="seni_lagaminai.jpg" alt="seni_lagaminai">
+            </div>
+            <div class="paveikslelis">
+                <img src="stiklainis_antram_gyvenimui.jpg" alt="stiklainis_antram_gyvenimui">
+            </div>
+            <div class="paveikslelis">
+                <img src="popierines_lazdeles.webp" alt="popierines_lazdeles">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Daiktų nerūšiuok, o juos reinkarnuok! 2024</p>
+    </footer>
+    <script src="script.js">
+        const elementById = document.getElementById('turinys');
+        const elementsByClassName = document.elementsByClassName('flex-item');
+    </script>
+</body>
+</html>
